@@ -61,6 +61,10 @@ layout: default
           <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><div data-icon='ei-sc-linkedin' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
+		{% if site.social-sina %}
+          <li class="c-social__item"><a href="https://weibo.com/ckshin/home?wvr=5{{site.social-sina}}" target="_blank"><div data-icon='ei-sc-linkedin' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
       </ul>
     </div>
     <div class="c-copyright">
