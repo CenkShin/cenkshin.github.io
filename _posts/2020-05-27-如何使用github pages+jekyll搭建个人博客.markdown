@@ -28,7 +28,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ![]({{site.baseurl}}/images/20200527_0.JPG)
 
-![]({{site.baseurl}}/images/20200527_4.JPG)
+![]({{site.baseurl}}/images/20200527_0.JPG)
 
 ***
 
