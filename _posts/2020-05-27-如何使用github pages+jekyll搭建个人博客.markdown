@@ -28,6 +28,8 @@ categories: 技术
 
 最后默认勾选Run ‘ridk install..’
 
+![]({{site.baseurl}}/images/20200527_2.JPG)
+
 ![]({{site.baseurl}}/images/20200527_2.jpg)
 
 弹出以下命令窗口，不清楚的情况，就直接按回车咯
