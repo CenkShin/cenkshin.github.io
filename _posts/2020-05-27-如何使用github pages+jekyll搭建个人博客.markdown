@@ -18,14 +18,6 @@ categories: 技术
 
 ![]({{site.baseurl}}/images/20200527_1.JPG)
 
-![]({{site.baseurl}}/images/10.jpg)
-
-![]({{site.baseurl}}/images/10.jpg)
-
-![]({{site.baseurl}}/images/10.jpg)
-
-![]({{site.baseurl}}/images/10.jpg)
-
 本地静态
 
 先安装ruby环境，进入官方[RubyInstaller](https://rubyinstaller.org/downloads/)网址下载推荐版本
@@ -36,19 +28,17 @@ categories: 技术
 
 ![]({{site.baseurl}}/images/20200527_2.JPG)
 
-![]({{site.baseurl}}/images/20200527_2.jpg)
-
 弹出以下命令窗口，不清楚的情况，就直接按回车咯
 
-![]({{site.baseurl}}/images/20200527_3.jpg)
+![]({{site.baseurl}}/images/20200527_3.JPG)
 
 最后弹出“今日无事可做”的log，说明已经安装完成了，再按一次回车自动退出
 
 重新打开git bash命令窗口，输入gem -v可查看是否安装成功
 
-![]({{site.baseurl}}/images/20200527_4.jpg)
+![]({{site.baseurl}}/images/20200527_4.JPG)
 
 接下来就可以安装jekyll和bundler啦啦啦啦，输入gem install jekyll bundler
 
-![]({{site.baseurl}}/images/20200527_7.jpg)
+![]({{site.baseurl}}/images/20200527_7.JPG)
 
