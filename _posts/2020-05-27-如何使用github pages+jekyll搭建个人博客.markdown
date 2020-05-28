@@ -20,6 +20,12 @@ categories: 技术
 
 ![]({{site.baseurl}}/images/10.jpg)
 
+![]({{site.baseurl}}/images/10.jpg)
+
+![]({{site.baseurl}}/images/10.jpg)
+
+![]({{site.baseurl}}/images/10.jpg)
+
 本地静态
 
 先安装ruby环境，进入官方[RubyInstaller](https://rubyinstaller.org/downloads/)网址下载推荐版本
