@@ -26,9 +26,7 @@ categories: 技术
 
 Anyway，下面就跟着我，看我的骚操作！！！
 
-![]({{site.baseurl}}/images/20200527_0.JPG)
-
-![]({{site.baseurl}}/images/20200527_0.JPG)
+![]({{site.baseurl}}/images/20200527_1.JPG)
 
 ***
 
@@ -42,7 +40,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 在[jekyll主题站](https://jekyllthemes.io/)上先找到自己喜欢的，简简单单选择了以下的主题
 
-![]({{site.baseurl}}/images/20200527_1.JPG)
+![]({{site.baseurl}}/images/20200527_2.JPG)
 
 然后找到github源码，点击右上角fork下来
 
@@ -56,7 +54,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 注意三连！！你可以任意命名的只有yourname，后面一定是要github.io结尾（除非...后续有空再说）
 
-![]({{site.baseurl}}/images/20200527_2.JPG)
+![]({{site.baseurl}}/images/20200527_3.JPG)
 
 
 
@@ -64,7 +62,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 滑动鼠标到GitHub Pages项目，选择Source为master branch，等待几分钟后，就能看到网页发布成功啦
 
-![]({{site.baseurl}}/images/20200527_3.JPG)
+![]({{site.baseurl}}/images/20200527_4.JPG)
 
 接下来就能通过浏览器输入 yourname.github.io 打开你的专属博客啦
 
@@ -76,6 +74,6 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 那么！下回告解！
 
-![]({{site.baseurl}}/images/20200527_4.JPG)
+![]({{site.baseurl}}/images/20200527_5.JPG)
 
 
