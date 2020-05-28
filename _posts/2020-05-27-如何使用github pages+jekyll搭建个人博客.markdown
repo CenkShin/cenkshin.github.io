@@ -28,6 +28,8 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ![]({{site.baseurl}}/images/20200527_0.JPG)
 
+
+
 ***
 
 ## **搞起来！！！**
@@ -46,6 +48,8 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 等待几分钟后，你的github仓库里面就躺着你刚刚fork下来的主题源码
 
+
+
 ##### **第二步：**
 
 点击仓库setting，修改仓库名yourname.github.io 
@@ -54,6 +58,8 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ![]({{site.baseurl}}/images/20200527_2.JPG)
 
+
+
 ##### **第三步：**
 
 滑动鼠标到GitHub Pages项目，选择Source为master branch，等待几分钟后，就能看到网页发布成功啦
@@ -61,6 +67,8 @@ Anyway，下面就跟着我，看我的骚操作！！！
 ![]({{site.baseurl}}/images/20200527_3.JPG)
 
 接下来就能通过浏览器输入 yourname.github.io 打开你的专属博客啦
+
+
 
 此时此刻是不是很兴奋，按耐不住自己跳动的心脏（~~好像有什么不对~~）
 
