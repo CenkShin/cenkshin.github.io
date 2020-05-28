@@ -5,3 +5,4 @@ _site
 *.DS_Store
 .bundle
 .jekyll-cache
+_posts_editing

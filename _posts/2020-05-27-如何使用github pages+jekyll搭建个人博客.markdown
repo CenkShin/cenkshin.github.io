@@ -20,9 +20,9 @@ categories: 技术
 
 只要能上github的地方，就能访问你的个人静态博客，这个就是我的github pages上的博客咯（[cenkshin.github.io](https://cenkshin.github.io/)）
 
-根据github pages官网主页的教程，一个带有Hello World的静态页面就最好啦，哟吼~
+根据github pages官网主页的教程，一个带有Hello World的静态页面就做好啦，哟吼~
 
-等等！！我们的目的可是搭建一个漂漂亮亮的页面，而不是毫无感情的 Hello World
+等等！！我们的目的可是搭建一个漂漂亮亮的页面，而不是毫无感情的 Hello World ~
 
 Anyway，下面就跟着我，看我的骚操作！！！
 
@@ -32,7 +32,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ## **搞起来！！！**
 
-“是时候展现真正的技术”
+“是时候展现真正的技术！”
 
 我们只是在搭建一个博客，并不是要开发一个博客，所以我们只要一切从简！
 
@@ -44,7 +44,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 然后找到github源码，点击右上角fork下来
 
-等待几分钟后，你的github仓库里面就躺着你刚刚fork下来的主题源码
+等待几分钟后，你的github仓库里面就躺着你刚刚fork下来的jekyll主题源码
 
 
 
