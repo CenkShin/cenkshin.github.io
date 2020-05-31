@@ -8,7 +8,7 @@ categories: 技术
 ---
 本post旨在记录如何从~~0鸡蛋到鸡仔的孵化过程~~，啊不，从0到1搭建静态个人博客
 
-首先，选用的平台是github pages + jekyll；如果你不想用这个平台，ALT+F4帮到你
+首先，选用的平台是```github pages + jekyll```；如果你不想用这个平台，```ALT+F4```帮到你
 
 ***
 
@@ -50,9 +50,9 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ##### **第二步：**
 
-点击仓库setting，修改仓库名yourname.github.io 
+点击仓库setting，修改仓库名```yourname.github.io``` 
 
-注意三连！！你可以任意命名的只有yourname，后面一定是要github.io结尾（除非...后续有空再说）
+注意三连！！你可以任意命名的只有```yourname```，后面一定是要```github.io```结尾（除非...后续有空再说）
 
 ![]({{site.baseurl}}/images/20200527_3.JPG)
 
@@ -64,7 +64,7 @@ Anyway，下面就跟着我，看我的骚操作！！！
 
 ![]({{site.baseurl}}/images/20200527_4.JPG)
 
-接下来就能通过浏览器输入 yourname.github.io 打开你的专属博客啦
+接下来就能通过浏览器输入 ```yourname.github.io``` 打开你的专属博客啦
 
 
 
