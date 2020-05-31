@@ -4,7 +4,7 @@ title: 如何使用github pages+jekyll搭建个人博客
 image: preview.jpg
 date: 2020-05-27 17:35:20 +0800
 tags: [github pages,jekyll]
-categories: 技术
+categories: tech
 ---
 本post旨在记录如何从~~0鸡蛋到鸡仔的孵化过程~~，啊不，从0到1搭建静态个人博客
 

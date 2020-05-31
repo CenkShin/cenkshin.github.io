@@ -4,7 +4,7 @@ title: 如何修改个人博客(一)
 image: 20200531_0.JPG
 date: 2020-05-31 17:35:20 +0800
 tags: [github pages,jekyll]
-categories: 技术
+categories: tech
 ---
 RubyGems一直以来在国内都非常难访问到，官方安装的镜像默认是使用官方源址，当需要安装依赖插件的时候，可能都会卡住不动。
 所以在此之前，我们可以变更镜像源址，说明请参考[Ruby China](https://gems.ruby-china.com/)。

@@ -1,0 +1,25 @@
+---
+layout: post
+title: 荔枝派zero入门(一)
+image: licheepi.JPG
+date: 2020-05-30 22:11:20 +0800
+tags: [linux,allwinner,v3s]
+categories: tech
+---
+
+闲来无事，balabala~ 购入一片荔枝派zero开发板
+
+***
+
+什么是荔枝派zero？使用的是Allwinner的v3s型号，内置cortex-A7单核心，其他具体规格参考[官方](http://www.allwinnertech.com/index.php?c=product&a=index&id=38)资料
+
+***
+
+怎么用？
+
+套装购买，包含的器件如下图：
+
+![]({{site.baseurl}}/images/licheepi_1_1.JPG)
+
+
+
