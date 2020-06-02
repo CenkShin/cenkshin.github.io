@@ -1,0 +1,135 @@
+---
+layout: post
+title: 如何修改个人博客(一)
+image: 20200531_0.JPG
+date: 2020-05-31 17:35:20 +0800
+tags: [github pages,jekyll]
+categories: tech
+---
+上篇简单描述了如何快速搭建静态博客，不记得就点[此](https://cenkshin.github.io/2020/05/27/如何使用github-pages+jekyll搭建个人博客/)回顾一下
+
+有小伙伴说已经按照教程搭建好了博客了，下一步我该怎么po文呢？
+
+![]({{site.baseurl}}/images/20200531_2.JPG)
+
+其实那可是相当的简单，只要在_posts文件夹内增删markdown文件就等于是增删po文了
+
+我们主要有两种方法来增删文件：```在线编辑``` 和 ```本地编辑```
+
+***
+
+## **在线编辑**
+
+在_posts目录下，点击右上角```Creat new file```
+
+![]({{site.baseurl}}/images/20200531_7.JPG)
+
+点击新建的文件后，右上角编辑图标，之后直接修改保存就可以了
+
+![]({{site.baseurl}}/images/20200531_8.JPG)
+
+在线修改的每一次保存操作，都相当于发布了一次！
+
+***
+
+## **本地编辑**
+
+本地编辑的好处是可以进行各种检查和排版后，再进行一次发布；以下这里说明的是windows平台
+
+#### **一、仓库CLONE**
+
+首先，先把仓库clone到本地，如不知道怎么创建本地仓库，参考[这里](https://pages.github.com/)
+
+git环境的配置在我的PC上已经做好了，我们直接输入指令
+
+#后续po文补充<font color="#FF4500">如何使用git远程仓库</font>
+
+{% highlight markdown %}
+$ git clone git@github.com:CenkShin/cenkshin.github.io.git
+#clone到当前目录
+{% endhighlight %}
+
+#### **二、环境搭建**
+
+先安装ruby环境，进入官方[RubyInstaller](https://rubyinstaller.org/downloads/)网址下载推荐版本
+
+一路默认，点安装！最后默认勾选Run ‘ridk install..’
+
+![]({{site.baseurl}}/images/20200531_3.JPG)
+
+弹出以下命令窗口，不清楚的情况，就直接按回车咯
+
+![]({{site.baseurl}}/images/20200531_4.JPG)
+
+最后弹出“今日无事可做”的log，说明已经安装完成了，再按一次回车自动退出；
+
+下一步进入本地仓库目录，然后右键点击```Git Bash Here```打开git bash命令窗口，输入 ```gem -v``` 可查看是否安装成功
+
+![]({{site.baseurl}}/images/20200531_5.JPG)
+
+> RubyGems一直以来在国内都非常难访问到，当需要安装依赖插件的时候，可能都会卡住不动。
+> 官方安装的镜像默认是使用官方源址，所以在此之前，我们可以变更镜像源址，说明请参考[Ruby China](https://gems.ruby-china.com/)。
+
+前面我们已经成功安装了windows对应的```ruby+devkit```环境，接下来安装```jekyll```之前先更新镜像源址，具体操作如下
+
+变更gem源址
+
+{% highlight markdown %}
+$ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
+$ gem sources -l
+https://gems.ruby-china.com
+#确保只有 gems.ruby-china.com
+{% endhighlight %}
+
+变更bundler的<font color="#FF4500">Gem源代码镜像命令</font>
+{% highlight markdown %}
+$ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+{% endhighlight %}
+至此镜像源址变更完毕
+
+安装```jekyll```和```bundler```
+{% highlight markdown %}
+$ gem install bundler jekyll
+$ bundle install
+{% endhighlight %}
+稍等片刻后安装成功！输入```jekyll -v```或者```bundle exec jekyll -v```可查询是否安装成功
+
+![]({{site.baseurl}}/images/20200531_1.JPG)
+
+
+
+#### **三、本地发布**
+
+运行本地发布指令，以下四选一：
+
+{% highlight markdown %}
+$ bundle exec jekyll serve
+#bundle exec jekyll s
+#jekyll serve
+#jekyll s
+{% endhighlight %}
+
+显示以下信息就表示已经发布成功，可以通过输入所示网址预览了！
+
+{% highlight markdown %}
+Server address: http://127.0.0.1:4000/
+{% endhighlight %}
+
+只要不退出bash命令窗口，本地的任何更改，都会实时更新local address
+
+
+
+#### **四、远程推送**
+
+以上本地修改并不会对github远程仓库进行变更，需要另外进行push操作
+
+也就是在更新github远程仓库之前，都可以使用本地静态浏览来先进行排版和编辑
+
+基本的git推送操作后，等待几分钟就可以通过```yourname.github.io```来访问了
+
+本篇到此结束，此处应有掌声！
+
+![]({{site.baseurl}}/images/20200531_9.JPG)
+
+***
+
