@@ -2,7 +2,7 @@
 layout: post
 title: 荔枝派zero入门(一)
 image: licheepi.JPG
-date: 2020-05-30 22:11:20 +0800
+date: 2020-05-31 22:11:20 +0800
 tags: [linux,allwinner,v3s]
 categories: tech
 ---
