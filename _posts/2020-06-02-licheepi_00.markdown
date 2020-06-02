@@ -2,7 +2,7 @@
 layout: post
 title: 荔枝派zero入门(一)
 image: licheepi.JPG
-date: 2020-05-31 22:11:20 +0800
+date: 2020-06-02 12:11:20 +0800
 tags: [linux,allwinner,v3s]
 categories: tech
 ---
@@ -15,11 +15,11 @@ categories: tech
 
 ***
 
-怎么用？
+
 
 套装购买，包含的器件如下图：
 
 ![]({{site.baseurl}}/images/licheepi_1_1.JPG)
 
-
+怎么用？
 
