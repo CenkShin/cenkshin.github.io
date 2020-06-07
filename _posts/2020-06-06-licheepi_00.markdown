@@ -1,0 +1,91 @@
+---
+layout: post
+title: 荔枝派zero入门(一)
+image: licheepi.JPG
+date: 2020-06-06 12:11:20 +0800
+tags: [linux,allwinner,v3s]
+categories: tech
+---
+
+什么是荔枝派zero？是一块小巧的开发板，使用的是Allwinner的v3s主芯片，内置cortex-A7单核心，balabala~ 其他芯片具体规格参考全志[官方](http://www.allwinnertech.com/index.php?c=product&a=index&id=38)资料
+
+既然闲来无事，那就购入一片荔枝派zero玩玩~
+
+套装购买，包含的器件如下图：
+
+![]({{site.baseurl}}/images/licheepi_1_1.JPG)
+
+板子到手，首要的问题是如何点亮运行
+
+由于买回来的板子不标配flash，又正好手头上有一张TF卡，又正好有一个读卡器，果断选择了TF卡制作启动镜像；万事俱备只欠东风
+
+网上冲了一会浪(是为了找东风)，找到了他人制作的TF卡启动的各种镜像压缩包(此乃东风也)
+
+点击[东风](https://pan.baidu.com/s/1kI5gUUEwdoDSHtQG7-JoMA )下载，提取码：2sq5
+
+***
+
+### Windows平台
+
+所需工具：[SD Card Formater](https://www.sdcard.org/downloads/formatter/)、[Win32DiskImager](https://win32diskimager.download/)、
+
+先格式化TF卡，确认是TF卡所在的盘符，点击```Format```即可
+
+![]({{site.baseurl}}/images/licheepi_1_2.JPG)
+
+解压其中一个镜像，并打开Win32DiskImager
+
+选择刚刚解压的dd镜像，并确认TF卡所在的盘符，点击```写入```
+
+![]({{site.baseurl}}/images/licheepi_1_3.JPG)
+
+之后把TF卡插入到荔枝派，上电即可运行烧录的镜像了
+
+***
+
+### **Ubuntu平台**
+
+所需工具：GParted
+
+GParted工具直接在Ubuntu store下载安装即可，具体步骤网上很多教程
+
+同样是先格式化TF卡，确认TF卡所在盘符，<font color="#FF4500">千万小心不要格式化了自己的系统盘</font>
+
+![]({{site.baseurl}}/images/licheepi_1_4.JPG)
+
+TF卡下的分区全部卸载删除，请注意窗口最下方显示```操作待进行```，说明未成功
+
+![]({{site.baseurl}}/images/licheepi_1_5.JPG)
+
+点击以下图标，应用全部操作，稍等片刻后就格式化成功了
+
+![]({{site.baseurl}}/images/licheepi_1_6.JPG)
+
+接下来进入命令行的操作，打开linux终端，输入```df -l```，可查询设备状态
+
+![]({{site.baseurl}}/images/licheepi_1_7.JPG)
+
+如果TF卡被挂载，需先取消挂载，使用umount指令
+
+上面我们在格式化的时候，已经确认TF卡设备盘符为```/dev/sdb```，在打印的列表信息中，TF卡无挂载点，那么接下来就可以进行dd烧录
+
+输入指令
+
+{% highlight markdown %}
+$ sudo dd if=dd文件 of=/dev/sdb bs=1024
+{% endhighlight %}
+
+这里需要几分钟的时间，不要着急ctrl+c退出
+
+烧录成功如下图：
+
+![]({{site.baseurl}}/images/licheepi_1_8.JPG)
+
+把TF卡插入到荔枝派，上电即可运行
+
+***
+
+实物运行图
+
+![]({{site.baseurl}}/images/licheepi_1_9.JPG)
+
