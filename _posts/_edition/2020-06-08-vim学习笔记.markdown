@@ -1,0 +1,27 @@
+---
+layout: post
+title: vim学习笔记
+image: 20200608_0.JPG
+date: 2020-06-08 11:11:20 +0800
+tags: [linux,vim]
+categories: tech
+---
+
+VIM编辑器是VI编辑器的升级版本，对于熟悉linux开发的工程师来说，可以说是必入工具之一
+
+熟练掌握VIM编辑器的使用，将大大提高开发效率
+
+很幸运，Ubuntu官方已经自带VIM教程，我们可以很方便的就能自学
+
+***
+
+### **如何打开VIM教程？**
+
+快捷键```ctrl+shift+T```打开命令行终端，输入```vimtutor```按回车结束
+
+即打开了VIM教程的副本
+
+![]({{site.baseurl}}/images/20200608_1.JPG)
+
+***
+
